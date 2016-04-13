@@ -28,7 +28,11 @@ html {
 .logo{
 	background-color: #ffffff;
 	text-align: center;
-	padding: 36px 15px 17px 15px;
+	padding: 30px 15px 38px 15px;
+}
+
+.box_1 img{
+	vertical-align: middle;
 }
 
 .box_1 a{
@@ -74,6 +78,14 @@ html {
      padding-top: 20px;
 }
 
+.box_2 img{
+vertical-align: middle;
+}
+
+.box_3 img{
+vertical-align: middle;
+}
+
 .nikko{
 	float: left;
 	padding-left: 180px;
@@ -96,14 +108,11 @@ html {
  
 .selection_1 a{
 	float: right;
-	
 	color: #66aedf;
-
 }
 
 .selection_2 a{
 	float: right;
-	
 	color: #66aedf;	
 }
 
@@ -193,19 +202,46 @@ img.main_image{
 }
 
 .list{
+	padding-left: 180px;
 	float: left;
-	margin-left: 180px;
-	width: 45%;
-	list-style-type: none;
+
 }
 
-
-.list a {
-    display: inline; 
-    margin-right: 5px; 
-    padding: 3px;
-   /* Поля вокруг текста */
+.list div{
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 20px;
 }
+
+ li {
+    list-style-type: none; 
+    font-size: 90%;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
+ .content a{
+ 	margin-left: 10px;
+ 	color: #1981c3;
+ 	text-decoration: none;
+ 	border-bottom: 2px solid #64c7f0;
+ }
+
+ .content li a{
+	 margin-left: 10px;
+	 color: #62b4d6;
+	 text-decoration: none;
+	 line-height: 2;
+}
+
+.content_last a{
+ 	margin-left: 10px;
+ 	color: #1981c3;
+ 	text-decoration: none;
+ 	border-bottom: 2px solid #64c7f0;
+ }
 
 .network{
 	float: right;
@@ -218,6 +254,7 @@ img.main_image{
 	box-sizing: border-box;
 	display: inline-block;
 	padding-left: 15px;
+	vertical-align: middle;
 
 }
 .social_networks :before{
@@ -236,9 +273,9 @@ img.main_image{
 .icon_2:hover:before { background-position: -36px -36px; width: 36px; height: 35px; }
 .icon_3:hover:before { background-position: -36px -71px; width: 36px; height: 35px; }
 
-
 .social_networks p{
 	color: #2697d8;
+	vertical-align: middle;
 }
 
 .phone a{
@@ -250,22 +287,51 @@ img.main_image{
 .mail a{
 	color: #2697d8;
 	padding-left: 15px;
-
 }
 
-
+.phone img{
+vertical-align: middle;
+}
+.mail img{
+vertical-align: middle;
+}
 
 .footer{
+		margin-top: 40px;
+		margin-bottom: 10px;
 	   border-top: 2px solid #e3e3e3;
+	   padding: 10px;
+	   color: #555555;
+	   font-size: 80%;
 }
 
 .footer_left{
 	float: left;
+	padding-left: 180px;
+	
+}
+
+.footer_left span{
+	font-size: 120%;
+	vertical-align: top;
 }
 
 .footer_right{
 	float: right;
+	padding-right: 190px;
 }
+
+.footer_right a{
+	text-decoration: none;
+	color: #555555;
+	padding-right: 10px;
+}
+
+.footer_right img{
+	vertical-align: middle;
+}
+
 .clear { 
     clear: both; 
 }
+
